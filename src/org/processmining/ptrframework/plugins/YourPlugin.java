@@ -1,4 +1,4 @@
-package org.processmining.newpackageivy.plugins;
+package org.processmining.ptrframework.plugins;
 
 import java.util.Collection;
 
@@ -9,14 +9,14 @@ import org.processmining.framework.connections.ConnectionCannotBeObtained;
 import org.processmining.framework.plugin.PluginContext;
 import org.processmining.framework.plugin.annotations.Plugin;
 import org.processmining.framework.plugin.annotations.PluginVariant;
-import org.processmining.newpackageivy.algorithms.YourAlgorithm;
-import org.processmining.newpackageivy.connections.YourConnection;
-import org.processmining.newpackageivy.dialogs.YourDialog;
-import org.processmining.newpackageivy.help.YourHelp;
-import org.processmining.newpackageivy.models.YourFirstInput;
-import org.processmining.newpackageivy.models.YourOutput;
-import org.processmining.newpackageivy.models.YourSecondInput;
-import org.processmining.newpackageivy.parameters.YourParameters;
+import org.processmining.ptrframework.algorithms.YourAlgorithm;
+import org.processmining.ptrframework.connections.YourConnection;
+import org.processmining.ptrframework.dialogs.YourDialog;
+import org.processmining.ptrframework.help.YourHelp;
+import org.processmining.ptrframework.models.YourFirstInput;
+import org.processmining.ptrframework.models.YourOutput;
+import org.processmining.ptrframework.models.YourSecondInput;
+import org.processmining.ptrframework.parameters.YourParameters;
 
 @Plugin(name = "Your plug-in name", parameterLabels = { "Name of your first input", "Name of your second input", "Name of your parameters" }, 
 	    returnLabels = { "Name of your output" }, returnTypes = { YourOutput.class }, help = YourHelp.TEXT)

@@ -8,11 +8,11 @@
 	<property name="dist" location="dist" />
 	<property name="release" location="latestrelease" />
 	<property name="version" value="${major_minor}.${env.BUILD_NUMBER}" />
-	<property name="project" value="NewPackageIvy" />
+	<property name="project" value="PTRFramework" />
 
-	<property name="author" value="H.M.W. Verbeek" />
-	<property name="organization" value="Eindhoven University of Technology" />
-	<property name="description" value="New Package with Ivy" />
+	<property name="author" value="Christian Rennert" />
+	<property name="organization" value="RWTH Aachen" />
+	<property name="description" value="PTRFramework" />
 	<!-- See https://svn.win.tue.nl/trac/prom/browser/Packages/ProM-Contexts/Trunk/src/org/processmining/contexts/uitopia/packagemanager/PMPackageView.java for a list of known licenses. -->
 	<property name="license" value="GPL" />
 	<property name="logo" value="prom_subtitle_hat_300.png" />

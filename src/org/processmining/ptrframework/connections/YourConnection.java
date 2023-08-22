@@ -1,10 +1,10 @@
-package org.processmining.newpackageivy.connections;
+package org.processmining.ptrframework.connections;
 
 import org.processmining.framework.connections.impl.AbstractConnection;
-import org.processmining.newpackageivy.models.YourFirstInput;
-import org.processmining.newpackageivy.models.YourOutput;
-import org.processmining.newpackageivy.models.YourSecondInput;
-import org.processmining.newpackageivy.parameters.YourParameters;
+import org.processmining.ptrframework.models.YourFirstInput;
+import org.processmining.ptrframework.models.YourOutput;
+import org.processmining.ptrframework.models.YourSecondInput;
+import org.processmining.ptrframework.parameters.YourParameters;
 
 public class YourConnection extends AbstractConnection {
 
