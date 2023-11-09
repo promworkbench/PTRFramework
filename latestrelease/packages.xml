@@ -1,6 +1,6 @@
 
 					<packages>
-						<package name="PTRFramework" version="6.14.6" os="all" url="PTRFramework/PTRFramework-6.14.6-all.zip" desc="PTRFramework" org="RWTH Aachen" license="GPL" author="Christian Rennert" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
+						<package name="PTRFramework" version="6.14.8" os="all" url="PTRFramework/PTRFramework-6.14.8-all.zip" desc="PTRFramework" org="RWTH Aachen" license="GPL" author="Christian Rennert" auto="false" hasPlugins="true" logo="prom_subtitle_hat_300.png">
 				    	<dependency org="prom" name="ProM-Plugins" rev="latest" changing="true" transitive="true" />
     	<dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" />
     	<dependency org="prom" name="Widgets" rev="latest" changing="true" transitive="true" />
